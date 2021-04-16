@@ -12,8 +12,9 @@ int main()
     ll n;
     cin>>n;
     ll a[n];
+    //getting random array
     for (int i = 0; i < n; ++i)
-    {
+    {    
         a[i]=rand()%100;
     }
     cout<<"Randomized Array:\n";
@@ -24,7 +25,8 @@ int main()
 
     priority_queue<ll> q;
     for (int i = 0; i < n; ++i)
-    {
+    {   
+        //for reversing the priority queue to ascending order
         q.push(-1*a[i]);
     }
     ll ans=0;
