@@ -53,10 +53,10 @@ Test Case-1
 ```
 Input(Randomly Generated in code):
 8
-34 71 37 56 12 50 59 37
+33 71 37 56 12 50 59 37
 
 Output:
-1043
+1042
 ```
 
 
